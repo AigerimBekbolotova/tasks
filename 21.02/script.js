@@ -30,33 +30,23 @@ console.log(result8);*/
 
 /********************* 1 задание *******************/
 
-let num1 = 1;
+let num = 1;
 num1 +=12;
 console.log(num1);
 alert(num1);
-
-let num2 = 1;
 num2 -=14;
 console.log(num2);
 alert(num2);
-
-let num3 = 1;
 num3 *= 5;
 console.log(num3);
 alert(num3);
-
-let num4 = 1;
 num4 /= 7;
 console.log(num4);
 alert(num4);
-
-let num5 = 1;
 ++ num5 ;
 console.log(num5);
 alert(num5);
-
-let num6 = 1;
--- num6 ;
+-- num6;
 console.log(num6);
 alert(num6);
 
@@ -65,13 +55,9 @@ let num7 = 10;
 ++ num7;
 console.log(num7);
 alert(num7);
-
-let num8 = 10;
 num8 ++;
 console.log(num8);
 alert(num8);
-
-let num9 = 10;
 num9 --;
 console.log(num9);
 alert(num9);
