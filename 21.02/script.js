@@ -6,7 +6,7 @@
 let num2 =65;
 let result = num === 45 && num2 === 65;
 console.log(result);// false
-let result2 = num ===77 && num2 === 65;
+let result2 = num === 77 && num2 === 65;
 console.log(result2);//false
 let result3 = num === 56 && num2 === 79;
 console.log(result3);//false
@@ -16,6 +16,7 @@ console.log(result4);*/
 /********** || ********/
 
 /*let age = 28;
+let age = 27;
 let result5 = age === 28 || age < 27
 console.log(result5);//true
 let result6 = age === 28 || age === 28;
