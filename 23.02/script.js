@@ -9,7 +9,7 @@ let userSalaries = {
       Sophia: 60000,
       Ellie: 55000
 }
-console.log(${userSalaries Ella} ${userSalaries Sophia});
+console.log(`${userSalaries.Ella} ${userSalaries.Sophia}`);
 
 
 /***********  2 zadanie   ***********/
@@ -46,5 +46,5 @@ if ( name === 'Президент'){
 else {
     alert ('Не знаете?');
 }
-console.log(name)
+console.log(name);
 
