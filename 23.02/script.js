@@ -5,12 +5,12 @@
 Выведите на экран зарплату Ella, Sophia.*/
 
 let userSalaries = {
-     'Ella': 50000,
-     'Sophia': 60000,
-     'Ellie': 55000
+      Ella: 50000,
+      Sophia: 60000,
+      Ellie: 55000
 }
-console.log(userSalaries['Ella'])
-console.log(userSalaries['Sophia'])
+console.log(${userSalaries Ella} ${userSalaries Sophia});
+
 
 /***********  2 zadanie   ***********/
 /*2) Создайте объект с ключами a, b и c значениями 5 , 6 и 10.
@@ -32,9 +32,9 @@ if (data === true){
 } else{
     number = 5;
 }*/
-let number = true;
-let access = number === true ? 3 : 5;
-alert(access);
+let data = true;
+let number = data === true ? 3 : 5;
+alert(number);
 
 
 /***********  4 zadanie   ***********/
