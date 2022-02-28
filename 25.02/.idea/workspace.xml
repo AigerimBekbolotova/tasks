@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebec4daf-e111-4df5-84b1-b3dcbdbede52" name="Changes" comment="feat: added 25.02">
+    <list default="true" id="ebec4daf-e111-4df5-84b1-b3dcbdbede52" name="Changes" comment="feat: fixed script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
@@ -46,7 +46,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645770347624</updated>
-      <workItem from="1645770348665" duration="6789000" />
+      <workItem from="1645770348665" duration="7703000" />
+      <workItem from="1645800418284" duration="27000" />
+      <workItem from="1646017278829" duration="219000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added 25.02">
       <created>1645777244088</created>
@@ -55,7 +57,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645777244088</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: fixed script">
+      <created>1645779478284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645779478284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +83,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: added 25.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added 25.02" />
+    <MESSAGE value="feat: fixed script" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fixed script" />
   </component>
 </project>

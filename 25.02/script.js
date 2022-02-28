@@ -45,16 +45,11 @@ console.log(result);//107
     Квадрат числа 5 будет 25.*/
 
 let rate = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
-let rate2 = [];
 let square = 0;
 for (let i = 0; i < rate.length; i++) {
-    square = rate[i] * rate[i];
-    console.log(square);
-    rate2.push(square);
+    square += rate[i] * rate[i];
+
 }
-let result2 = 0;
-for ( r = 0; r < rate2.length; r++){
-    result2 += rate2[r];
-}
-console.log(result2);
+console.log(square);
+
 
