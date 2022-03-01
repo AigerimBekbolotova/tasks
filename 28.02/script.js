@@ -60,6 +60,7 @@ const num2 =  [];
          let sum = num3[i] + num3[i];
          num2.push(sum);
      }
+     return num2;
  }
  calc([5,10,15,20,25]);
  calc([6,8,10,12,14]);
