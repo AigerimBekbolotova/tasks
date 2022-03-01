@@ -47,7 +47,7 @@ console.log(letter);
 
 let num3 = [1,2,115,4,58,7,99];
 for (let i = 0; i < num3.length; i++) {
-    if (num3[i] == 4) {
+    if (num3[i] === 4) {
         alert('Есть!');
     }
 }
