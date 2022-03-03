@@ -8,22 +8,18 @@
     setTimeout(func1) => Hello after 4 seconds
     setTimeout(func1) => Hello after 8 seconds*/
 
-function hello (str1, str2){
+function hello (str1){
     console.log(str1);
-    console.log(str2);
 }
 setTimeout(hello,4000,  'Hello after 4 seconds', '');
 setTimeout(hello,8000,'Hello after 8 seconds', '');
 
 /*2) Напишите функцию mul(n,m), которая принимает два аргумента и возвращает
 произведение этих аргументов.*/
-function mul (){
-    const n = arguments[0];
-    const m = arguments[1];
-    console.log (n*m);
+function mul (n,m){
+    return (n * m);
 }
-mul(5,10);
-
+console.log (mul(5,10));
 /*
 3) Создайте функцию и с помощью цикла найдите факториал числа 7:
 Название для функции можно дать любую.
