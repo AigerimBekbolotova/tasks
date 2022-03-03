@@ -44,7 +44,7 @@ console.log(myFunk('a', 3));
 const data = [1, 2, 3];
 myFunc(data);  // [3, 2, 1];*/
 
-
+//reverce
 function array(){
     let data = [1,2,3];
     data.reverse();
@@ -52,5 +52,5 @@ function array(){
 }
 array();
 
-
+//
 
