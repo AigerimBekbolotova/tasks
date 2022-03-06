@@ -8,8 +8,8 @@
     setTimeout(func1) => Hello after 4 seconds
     setTimeout(func1) => Hello after 8 seconds*/
 
-function hello (str1){
-    console.log(str1);
+function hello (str){
+    console.log(str);
 }
 setTimeout(hello,4000,  'Hello after 4 seconds', '');
 setTimeout(hello,8000,'Hello after 8 seconds', '');
