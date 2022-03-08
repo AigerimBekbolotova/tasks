@@ -1,0 +1,25 @@
+
+.notification{
+    position: fixed;
+    left: 900px;
+    top: 100px;
+
+    width: 500px;
+    height: 50px;
+    transition: 1.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: cornflowerblue;
+    border: 1px solid white;
+    box-shadow: 0 0 10px cornflowerblue;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.notification:hover{
+    opacity: 0.5;
+}
