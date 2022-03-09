@@ -1,0 +1,32 @@
+.btn {
+    padding: 10px 70px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    background-color: cornflowerblue;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.notification {
+    position: relative;
+    padding: 16px 16px;
+    top: -45px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: #084298;
+    background-color: #cfe2ff;
+    display: none;
+    width: 600px;
+}
+
+.d-block{
+    display: block!important;
+}
