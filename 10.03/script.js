@@ -25,5 +25,6 @@ restart.onclick = () => {
     result.textContent = count = 0;
 }
 
+test
 
     
