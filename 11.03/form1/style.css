@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 680px;
+    height: 605px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 0px;
+}
+
+h2 {
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+input, select {
+    width: 190px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding-left: 10px;
+    margin-right: 7px;
+
+}
+
+.select {
+    margin-top: 16px;
+    width: 203px;
+    height: 50px;
+}
+
+.passport-info{
+    text-align: left;
+    margin-left: 24px;
+}
+
+.p2 {
+    padding-left: 0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.bd, .dg, .contact {
+    display: flex;
+    position: relative;
+}
+
+.data, .data-get, .bank-info {
+    width: 190px;
+    height: 35px;
+    color: grey;
+    padding-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding-left: 10px;
+    margin-right: 12px;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+}
+.data-get, .bank-info {
+    margin-top: 16px;
+}
+
+.icon {
+    position: absolute;
+    left: 170px;
+    top: 15px;
+}
+
+.icon-2 {
+    position: absolute;
+    right: 38px;
+    top: 29px;
+}
+
+.vector {
+    position: absolute;
+    right: 38px;
+    top: 40px;
+}
+
+.id-info {
+    margin-right: 12px;
+    margin-top: 16px;
+}
+
+.address {
+    width: 408px;
+}
+
+.id-info-2 {
+    margin-top: 16px;
+}
+
+.contact-2 {
+    margin-top: 16px;
+    width: 408px;
+}
+
+button {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 384px;
+    height: 48px;
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+.btn-1 {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

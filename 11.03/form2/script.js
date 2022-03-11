@@ -1,0 +1,34 @@
+let container = document.querySelector('#apply');
+
+container.onclick = (event) =>{
+    event.preventDefault()
+    let nameCompany = document.querySelector('#name-company').value;
+    let position = document.querySelector('#position').value;
+    let salary = document.querySelector('#salary').value;
+    let salaryFor3Month = document.querySelector('#salary-for-3month').value;
+    let shopping = document.querySelector('#shopping').value;
+    let coast = document.querySelector('#coast').value;
+    let amount = document.querySelector('#amount').value;
+    let total = document.querySelector('#total').value;
+    let creditType = document.querySelector('#credit-type').value;
+    let creditTerm = document.querySelector('#credit-term').value;
+    let bankAddress = document.querySelector('#bank-address').value;
+
+    let object = {
+        name:nameCompany,
+        position:position,
+        salary:salary,
+        salaryFor3Month:salaryFor3Month,
+        shopping:shopping,
+        coast:coast,
+        amount:amount,
+        total:total,
+        creditType:creditType,
+        creditTerm:creditTerm,
+        bankAddress:bankAddress
+    }
+    console.log(object);
+    
+
+}
+

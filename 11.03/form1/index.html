@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11.03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h2>Анкета для корпоративных клиентов</h2>
+            <p>Личные данные</p>
+            <input id="user-lastname" class="input lastname" type="text" placeholder="Фамилия">
+            <input id="user-name" class="input name " type="text" placeholder="Имя">
+            <input id="user-first-name" class="input firstname" type="text" placeholder="Отчество">
+        </div>
+        <div class="passport-info">
+            <p class="p2">Паспортные данные</p>
+            <div class="bd">
+                <input id="date-of-birth" class="data" type="date">
+                <input id="user-birth-address" class="address" type="text" placeholder="Месторождение по прописке ">
+            </div>
+            <div class="dg">
+                <input id="user-passport" class="id-info" type="text" placeholder="Серийный номер AN/ID">
+                <input id="user-num-passport" class="id-info" type="text" placeholder="ИНН">
+                <input id="user-date-of-get-passport" class="data-get" type="date">
+            </div>
+            <div class="contact">
+                <input id="user-phone-number" class="id-info" type="text" placeholder="Контактный номер">
+                <input id="user-mail" class="id-info" type="email" placeholder="Электронный адрес">
+                <select id="user-name-of-bank" class="select">
+                    <option value="0">Наименование банка</option>
+                    <option value="1">Optima</option>
+                    <option value="2">KICB</option>
+                    <option value="3">DemirBank</option>
+                </select>
+            </div>
+            <input id="user-address" class="contact-2" type="text" placeholder="Фактическое место проживание">
+        </div>
+        <button id="next"><a class="btn-1" href="#" target="blank">Далее</a></button>
+    </div>
+<script src="script.js"></script>  
+</body>
+</html>
