@@ -26,7 +26,7 @@ container.onclick = () =>{
         creditTerm:creditTerm,
         bankAddress:bankAddress
     }
-    console.log(object);
+    console.log(object2);
     
     let notification = document.querySelector('#notification')
 
