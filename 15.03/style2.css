@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: 680px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 0px;
+}
+
+h2 {
+    margin-top:32px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-left: 22px;
+    font-size: 16px;
+}
+
+input, select{
+    width: 190px;
+    height: 48px;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding-left: 10px;
+    margin-right: 7px;
+    margin-top: 13px;
+}
+
+.name {
+    width: 400px;
+}
+
+.salary-info {
+    width: 295px;
+}
+
+p {
+    font-family: 'Sora', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 22px;
+    margin-bottom: -7px;
+    margin-top: 22px;
+}
+
+.shop {
+    width: 615px;
+}
+
+.goods-1 {
+    margin-top: 12px;
+}
+
+.goods {
+    margin-top: 0;
+}
+
+.credit-options {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.credit-type, .credit-term, .credit-address {
+    display: flex;
+    width: 203px;
+    height: 51px;
+    color: grey;
+    border-radius: 10px;
+    border: 1px solid #DADADA;
+    padding-left: 10px;
+    margin-right: 11px;
+    font-size: 14px;
+    font-family: 'Sora', sans-serif;
+    justify-content: space-between;
+    padding-right: 10px;
+
+}
+
+.credit-address {
+    width: 630px;
+    height: 48px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+select:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+    color: white;
+}
+
+.ct {
+    margin-left: 2px;
+}
+
+button {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    width: 384px;
+    height: 48px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.btn-1 {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+}
